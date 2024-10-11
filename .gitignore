@@ -5,4 +5,4 @@ projet_sudoku
 lib/libsudoku.so
 
 # Ignore vs code env
-./.vscode
+.vscode
