@@ -22,15 +22,15 @@ Le processus est très gourmand en calculs, et pour l'optimiser, la solution uti
 ## Installation
 
 1. Clonez le dépôt :
-    ```bash
+```bash
    git clone https://github.com/Amayasmkt/SudokuProject.git
    cd SudokuProject
-    ```
+```
 2. Compilez le projet en utilisant le fichier `Makefile` fourni.
 
 ## Compilation
 Pour compiler le programme, éxecutez :
-  ```bash
+```bash
     make build
 ```
 
@@ -50,7 +50,7 @@ Le programme prend un argument,`N`, qui est le nombre de cases non vides à lais
 
 Exemple d'utilisation :
 ```bash
-./projet_sudoku 45
+    ./projet_sudoku 45
 ```
 
 Cela générera un puzzle Sudoku avec 45 chiffres.
