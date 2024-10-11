@@ -23,7 +23,7 @@ Le processus est très gourmand en calculs, et pour l'optimiser, la solution uti
 
 1. Clonez le dépôt :
     ```bash
-   git clone https://github.com/yourusername/SudokuProject.git
+   git clone https://github.com/Amayasmkt/SudokuProject.git
    cd SudokuProject
     ```
 2. Compilez le projet en utilisant le fichier `Makefile` fourni.
