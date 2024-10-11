@@ -1,0 +1,5 @@
+# Ignore compiled binary
+projet_sudoku
+
+# Ignore shared library
+lib/libsudoku.so
