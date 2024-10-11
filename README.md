@@ -2,14 +2,14 @@
 
 ## Aperçu
 
-Ce projet génère des puzzles Sudoku avec une solution unique, en partant d'une grille entièrement résolue et en retirant des valeurs jusqu'à ce qu'il ne reste qu'un nombre spécifié de chiffres (N). Le défi est de garantir que chaque fois qu'une valeur est retirée, le puzzle ne possède qu'une seule solution valide.
+Ce projet génère des puzzles Sudoku avec une solution unique, en partant d'une grille entièrement résolue et en retirant des valeurs jusqu'à ce qu'il ne reste qu'un nombre spécifié de chiffres (`N`). Le défi est de garantir que chaque fois qu'une valeur est retirée, le puzzle ne possède qu'une seule solution valide.
 
 Le processus est très gourmand en calculs, et pour l'optimiser, la solution utilise le multi-threading. Pour chaque valeur pouvant potentiellement être retirée, des threads sont créés pour tester différentes possibilités en parallèle. Si une solution est trouvée par un thread, les autres sont arrêtés.
 
 ## Fonctionnalités
 - Génère des grilles de Sudoku avec une solution unique.
 - Utilise le multi-threading pour optimiser le processus de génération de puzzle.
-- Permet à l'utilisateur de spécifier combien de chiffres (N) doivent rester dans la grille.
+- Permet à l'utilisateur de spécifier combien de chiffres (`N`) doivent rester dans la grille.
 - Utilise la bibliothèque externe `libsudoku.so` pour gérer la grille de Sudoku.
 
 ## Fonctionnement
@@ -34,7 +34,7 @@ Pour compiler le programme, éxecutez :
     make build
 ```
 
-Pour exécuter le programme avec une valeur de N comprise entre 40 et 50 :
+Pour exécuter le programme avec une valeur de `N` comprise entre 40 et 50 :
 ```bash
     make run
 ```
