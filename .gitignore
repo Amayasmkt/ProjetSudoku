@@ -3,3 +3,6 @@ projet_sudoku
 
 # Ignore shared library
 lib/libsudoku.so
+
+# Ignore vs code env
+./.vscode
